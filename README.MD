@@ -8,8 +8,7 @@ Please to see [The Splio API Referance](https://dev-scp.splio.com/reference)
 
 ## Some Notes
 
-Splio's HTTP API is very messy and has multiple versions thus we have done our best to keep it simple and work around
-it. Please read the source code to see examples of this.
+Splio's HTTP API is very messy..., be careful with model.
 
 ## Testing
 

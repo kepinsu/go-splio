@@ -2,7 +2,7 @@ package models
 
 import "time"
 
-type ListSRecipientForwardCampagn struct {
+type ListRecipientForwardCampagn struct {
 	CountElement uint `json:"count_element,omitempty"`
 	CuurentPage  uint `json:"cuurent_page,omitempty"`
 	PerPage      uint `json:"per_page,omitempty"`
