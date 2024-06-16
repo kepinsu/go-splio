@@ -4,7 +4,7 @@ This is the Golang Splio non-official SDK built.
 
 ## Documentation
 
-Please to see [The Splio API Referance](https://dev-scp.splio.com/reference) 
+Please to see [The Splio API Referance](https://dev-scp.splio.com/reference)
 
 ## Some Notes
 

@@ -62,6 +62,10 @@ type ContactsFields struct {
 	} `json:"sort,omitempty"`
 	Elements []FieldElement `json:"elements,omitempty"`
 }
+type ListOrdersFieldsQuery struct {
+	PageNumber int
+	PerPage    int
+}
 
 type ListOrdersFields struct {
 	CountElement uint `json:"count_element,omitempty"`
@@ -71,6 +75,11 @@ type ListOrdersFields struct {
 		ID string `json:"id,omitempty"`
 	} `json:"sort,omitempty"`
 	Elements []FieldElement `json:"elements,omitempty"`
+}
+
+type ListOrderedProductFieldsQuery struct {
+	PageNumber int
+	PerPage    int
 }
 type ListOrderedProductFields struct {
 	CountElement uint `json:"count_element,omitempty"`
@@ -82,6 +91,10 @@ type ListOrderedProductFields struct {
 	Elements []FieldElement `json:"elements,omitempty"`
 }
 
+type ListProductFieldsQuery struct {
+	PageNumber int
+	PerPage    int
+}
 type ListProductFields struct {
 	CountElement uint `json:"count_element,omitempty"`
 	CuurentPage  uint `json:"cuurent_page,omitempty"`
@@ -92,6 +105,10 @@ type ListProductFields struct {
 	Elements []FieldElement `json:"elements,omitempty"`
 }
 
+type ListRewardsFieldsQuery struct {
+	PageNumber int
+	PerPage    int
+}
 type ListRewardsFields struct {
 	CountElement uint `json:"count_element,omitempty"`
 	CuurentPage  uint `json:"cuurent_page,omitempty"`
@@ -101,7 +118,10 @@ type ListRewardsFields struct {
 	} `json:"sort,omitempty"`
 	Elements []FieldElement `json:"elements,omitempty"`
 }
-
+type ListLoyaltyMembersQuery struct {
+	PageNumber int
+	PerPage    int
+}
 type ListLoyaltyMembersFields struct {
 	CountElement uint `json:"count_element,omitempty"`
 	CuurentPage  uint `json:"cuurent_page,omitempty"`
@@ -111,7 +131,10 @@ type ListLoyaltyMembersFields struct {
 	} `json:"sort,omitempty"`
 	Elements []FieldElement `json:"elements,omitempty"`
 }
-
+type ListStoreQuery struct {
+	PageNumber int
+	PerPage    int
+}
 type ListStoreFields struct {
 	CountElement uint `json:"count_element,omitempty"`
 	CuurentPage  uint `json:"cuurent_page,omitempty"`

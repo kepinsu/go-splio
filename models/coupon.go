@@ -1,5 +1,10 @@
 package models
 
+type ListCouponsQuery struct {
+	PerPage    int
+	PageNumber int
+}
+
 type ListCoupons struct {
 	CountElement uint `json:"count_element,omitempty"`
 	CuurentPage  uint `json:"cuurent_page,omitempty"`
