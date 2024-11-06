@@ -6,9 +6,13 @@ This is the Golang Splio non-official SDK built.
 
 Please to see [The Splio API Referance](https://dev-scp.splio.com/reference)
 
-## Some Notes
+## 📡 Supported Services
 
-Splio's HTTP API is very messy..., be careful with model.
+- [General](https://dev-scp.splio.com/reference/post_authenticate)
+- [Universe](https://dev-scp.splio.com/reference/get_universes-consumption)
+- [Fields](https://dev-scp.splio.com/reference/post_data-fields)
+- [Export](https://dev-scp.splio.com/reference/get_reports-smtprelay-action-id-recipients)
+- [Blacklist](https://dev-scp.splio.com/reference/get_data-blacklists-cellphones)
 
 ## Testing
 
